@@ -9,7 +9,7 @@ const Board = db.define("board", {
   },
   num_players: {
     type: Sequelize.ENUM({
-        values: ["2","4"]
+        values: ["2","3","4"]
     }),
     allowNull: false,
   },
